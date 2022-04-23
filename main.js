@@ -1,13 +1,14 @@
 const picArray = [
-    { src: './images/hokkaido.jpg', title: 'hokkaido' },
-    { src: './images/sikoku1.jpg', title: 'sikoku' },
-    { src: './images/kyoto1.jpg', title: 'kyoto' },
-    { src: './images/beach1.jpg', title: 'beach' },
-    { src: './images/taki.jpg', title: 'taki' },
-    { src: './images/Mt.Fuji.jpg', title: 'Winter' },
-    { src: './images/nagoya.jpg', title: 'Winter' },
-    { src: './images/sapporo.jpg', title: 'Winter' },
-    { src: './images/zusi.jpg', title: 'Winter' }
+
+    { src: './images/sikoku1.jpg', title: 'Sikoku' },
+    { src: './images/kyoto1.jpg', title: 'Kyoto' },
+    { src: './images/beach1.jpg', title: 'Beach' },
+    { src: './images/taki.jpg', title: 'River' },
+    { src: './images/Mt.Fuji.jpg', title: 'MT.Fuji' },
+    { src: './images/nagoya.jpg', title: 'Nagoya' },
+    { src: './images/hokkaido.jpg', title: 'Hokkaido' },
+    { src: './images/sapporo.jpg', title: 'Sapporo' },
+    { src: './images/zusi.jpg', title: 'Kanagawa' }
 ];
 
 let counter = 0;

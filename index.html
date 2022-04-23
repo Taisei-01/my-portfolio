@@ -1,72 +1,74 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="style2.css" />
+    <title>My Portfolio</title>
+  </head>
 
-  <title>My Portfolio</title>
-</head>
+  <body>
+    <div class="header">
+      <div class="header-logo">My portfolio</div>
+    </div>
 
-<body>
-  <div class="header">
-    <div class="header-logo">My portfolio</div>
-  </div>
-
-  <div class="profile">
-    <h2>自己紹介</h2>
-    <div class="about-me">
-      <div class="me">
-        <img src="images/自己紹介.jpg" alt="私の写真" />
+    <div class="profile">
+      <h2>自己紹介</h2>
+      <div class="about-me">
+        <div class="me">
+          <img src="images/自己紹介.jpg" alt="私の写真" />
+        </div>
+        <div class="list">
+          <br />
+          <br />
+          <ul>
+            <li>&spades;名前：梅川泰星</li>
+            <li>&clubs;誕生日:7/7</li>
+            <li>&hearts;出身：兵庫県芦屋市</li>
+            <li>&diams;大学：法政大学</li>
+          </ul>
+        </div>
       </div>
-      <div class="list">
+    </div>
+    <h2>趣味</h2>
+    <br />
+    <div class="main">
+      <div class="hobby1">
+        <img src="images/soccer2.jpg" />
+        <p>1.SOCCER</p>
+        <h3>ポジションはキーパー以外全部やったことがあります！</h3>
+      </div>
+
+      <div class="hobby2">
+        <p>2.Travel</p>
+
+        <div class="slideshow">
+          <img src="images/hyosi.jpg" id="pics" />
+          <h2 id="pic-title">SlideShow!</h2>
+          <button id="playButton" onclick="playSlidedeshow();">
+            押してみて！
+          </button>
+        </div>
+      </div>
+
+      <div class="hobby3">
+        <p>3.Music</p>
         <br />
-        <br>
-        <ul>
-          <li>&spades;名前：梅川泰星</li>
-          <li>&clubs;誕生日:7/7</li>
-          <li>&hearts;出身：兵庫県芦屋市</li>
-          <li>&diams;大学：法政大学</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <h2>趣味</h2>
-  <br>
-  <div class="main">
-    <div class="hobby1">
-      <img src="images/soccer2.jpg" />
-      <p>1.SOCCER</p>
-      <h3>ポジションはキーパー以外全部やったことがあります！</h3>
-    </div>
-
-    <div class="hobby2">
-      <p>2.Travel</p>
-
-      <div class="slideshow">
-
-        <img src="images/hyosi.jpg" id="pics">
-        <h2 id="pic-title">SlideShow!</h2>
-        <button id="playButton" onclick="playSlidedeshow();">押してみて！</button>
+        <h3>画像をタップ！</h3>
+        <div class="Live">
+          <img src="images/music1.jpg" id="targetImage" class="music" />
+          <h4 id="content">
+            顔や年齢などの公表はされていないアーティストです！
+          </h4>
+        </div>
       </div>
     </div>
 
-    <div class="hobby3">
-      <p>3.Music</p>
-      <br>
-      <h2>画像をタップ！</h2>
-      <img src="images/music1.jpg" id="targetImage">
-    </div>
-  </div>
-
-
-  <script src="main.js"></script>
-  <script src="main2.js"></script>
-
-</body>
-
+    <script src="main.js"></script>
+    <script src="main2.js"></script>
+  </body>
 </html>
